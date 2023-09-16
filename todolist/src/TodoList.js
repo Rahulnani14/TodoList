@@ -31,7 +31,7 @@ function TodoList() {
           New Task:
           <input type="text" value={newTask} onChange={e => setNewTask(e.target.value)} />
         </label>
-        <button type="submit">Add Task</button>
+        <button type="submit" style={{marginLeft:3}}>Add Task</button>
       </form>
       <ul>
         {tasks.map((task, index) => (
